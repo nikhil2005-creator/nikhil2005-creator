@@ -1,16 +1,66 @@
-## Hi there 👋
+# Hi, I'm Nikhil 👋
 
-<!--
-**nikhil2005-creator/nikhil2005-creator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Electronics and Communication Engineering undergraduate at **PES University**, with hands-on experience in digital ASIC design, CMOS VLSI, full-custom circuit design and PCB development.
 
-Here are some ideas to get you started:
+I’m interested in **VLSI design, ASIC implementation, semiconductor technology and hardware security**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Projects
+
+### 1. ASCON Authenticated Encryption ASIC — First Tapeout
+[View Repository](https://github.com/nikhil2005-creator/ascon-asic-scl180nm)
+
+- Implemented and debugged ASCON encryption RTL in Verilog for SCL 180 nm CMOS.
+- Worked on synthesis, floorplanning, placement, CTS, routing, timing analysis and Gate-Level Simulation.
+- Completed physical verification, including DRC, LVS and antenna checks; the chip was fabricated and received.
+- Designed and assembled an evaluation PCB for post-silicon testing.
+
+### 2. Mixed-Signal Hardware Security ASIC — Second Tapeout
+[View Repository](https://github.com/nikhil2005-creator/mixed-signal-ascon-ti-asic)
+
+- Designed and validated a **21-stage NOR-based Ring Oscillator** using full-custom CMOS design, layout and Spectre simulation in Cadence Virtuoso.
+- Integrated the RO with a digital frequency counter and ASCON encryption engine to process aging data.
+- Incorporated **Threshold Implementation (TI)** in the ASCON design as a countermeasure against side-channel attacks.
+- Completed the ASIC physical-design flow targeting 100 MHz and submitted the design for the second tapeout.
+
+### 3. NTT-256 Hardware Accelerator
+[View Repository](https://github.com/nikhil2005-creator/ntt256-asic-accelerator)
+
+- Implemented a 256-point Number Theoretic Transform (NTT) accelerator in Verilog for post-quantum cryptography.
+- Integrated SRAM macros and performed synthesis and physical implementation using Cadence Genus and Innovus.
+- Worked on floorplanning, placement, CTS, routing and timing closure for SCL 180 nm.
+
+### 4. FPGA Digital Stopwatch
+[View Repository](https://github.com/nikhil2005-creator/fpga-digital-stopwatch)
+
+- Designed a 10-minute digital stopwatch in Verilog/SystemVerilog for an Artix-7 FPGA.
+- Implemented clock division from 100 MHz, minute/second counters, start/stop and reset controls.
+- Simulated and synthesized the design using Xilinx Vivado.
+
+## 🔬 Currently Working On
+
+### Secure Mixed-Signal Hardware Security Chip
+- Developing a hardware-security architecture integrating a Ring Oscillator (RO), a True Random Number Generator (TRNG), ML-KEM and AES.
+- Working on securely generating, encrypting and transmitting on-chip aging data using TRNG-based randomization.
+- Exploring hardware-level data protection and resistance to side-channel attacks.
+
+### Low-Power ALU Design Using Hybrid Logic Styles
+- Implementing and comparing CMOS, Pass Transistor Logic (PTL) and Transmission Gate (TG) logic.
+- Exploring hybrid power optimization using block power gating and operand gating to reduce leakage and dynamic power.
+- Performing transistor-level simulation and power analysis in Cadence Virtuoso.
+
+## 🛠️ Technical Skills
+
+- **HDL & Programming:** Verilog HDL, SystemVerilog, C, Python, RISC-V Assembly
+- **ASIC & Digital Design:** RTL Design, RTL-to-GDSII, ASIC Physical Design, Gate-Level Simulation, FPGA Prototyping
+- **EDA Tools:** Cadence Virtuoso, Genus, Innovus, Calibre, Xilinx Vivado, MATLAB
+- **PCB & Hardware:** KiCad, LibreCAD, PCB Design, Circuit Testing and Debugging
+
+## 🎯 Areas of Interest
+
+VLSI Design · ASIC Implementation · Full-Custom CMOS Design · Hardware Security · Post-Quantum Cryptography · Low-Power VLSI
+
+## 🤝 Connect With Me
+
+- **LinkedIn:** [Nikhil N](https://www.linkedin.com/in/nikhil-n-89574a377)
+- **Email:** [nikhiln10092005@gmail.com](mailto:nikhiln10092005@gmail.com)
+- **GitHub:** [@nikhil2005-creator](https://github.com/nikhil2005-creator)
