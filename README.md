@@ -39,9 +39,9 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 ## 🔬 Currently Working On
 
 ### Secure Mixed-Signal Hardware Security Chip
-- Developing a hardware-security architecture integrating a Ring Oscillator (RO), a True Random Number Generator (TRNG), ML-KEM and AES.
-- Working on securely generating, encrypting and transmitting on-chip aging data using TRNG-based randomization.
-- Exploring hardware-level data protection and resistance to side-channel attacks.
+- Developing a hardware-security architecture integrating a Ring Oscillator (RO), **ML-KEM key generation and encapsulation**, and AES-256 encryption.
+- Using ML-KEM to generate cryptographic keys; the public key is provisioned into on-chip One-Time Programmable (OTP) memory for the on-chip encapsulation process.
+- Using the resulting 256-bit shared secret with AES-256 to encrypt RO-based aging-sensor data, supporting secure on-chip data protection and age comparison.
 
 ### Low-Power ALU Design Using Hybrid Logic Styles
 - Implementing and comparing CMOS, Pass Transistor Logic (PTL) and Transmission Gate (TG) logic.
