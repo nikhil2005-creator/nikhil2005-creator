@@ -36,6 +36,13 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 - Implemented clock division from 100 MHz, minute/second counters, start/stop and reset controls.
 - Simulated and synthesized the design using Xilinx Vivado.
 
+### 5. Planet Hopper — 2-Player Space Game
+[View Repository](https://github.com/nikhil2005-creator/Planet-Hopper-2-Player-Space-Game-in-Verilog)
+
+- Designed a two-player space-race game using Verilog HDL.
+- Developed a testbench covering four starting-position scenarios and simulated the design using Icarus Verilog.
+- Inspected simulation waveforms using GTKWave and included the generated VCD file in the repository.
+
 ## 🔬 Currently Working On
 
 ### Secure Mixed-Signal Hardware Security Chip
