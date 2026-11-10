@@ -43,6 +43,14 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 - Developed a testbench covering four starting-position scenarios and simulated the design using Icarus Verilog.
 - Inspected simulation waveforms using GTKWave and included the generated VCD file in the repository.
 
+### 6. Student ID Recognition using OCR and DSP — Campus Security & Attendance
+[View Repository](https://github.com/nikhil2005-creator/Student-ID-Recognition-OCR-MATLAB)
+
+- Built a MATLAB system that reads a student's SRN from an ID card via webcam and verifies it against a student database.
+- Applied DSP-based image enhancement (grayscale conversion, median filtering, sharpening, contrast adjustment and adaptive thresholding) to improve OCR accuracy.
+- Allows campus entry only for registered students; unregistered persons must register to receive a new SRN and ID.
+- Records class attendance automatically, saving each successful scan to a CSV file with the date and time.
+
 ## 🔬 Currently Working On
 
 ### Secure Mixed-Signal Hardware Security Chip
