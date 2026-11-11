@@ -6,7 +6,7 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 
 ## 🚀 Projects
 
-### 1. ASCON Authenticated Encryption ASIC — First Tapeout
+### 1. ASCON Authenticated Encryption ASIC — First Tapeout--verilog 
 [View Repository](https://github.com/nikhil2005-creator/ascon-asic-scl180nm)
 
 - Implemented and debugged ASCON encryption RTL in Verilog for SCL 180 nm CMOS.
@@ -22,21 +22,21 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 - Incorporated **Threshold Implementation (TI)** in the ASCON design as a countermeasure against side-channel attacks.
 - Completed the ASIC physical-design flow targeting 100 MHz and submitted the design for the second tapeout.
 
-### 3. NTT-256 Hardware Accelerator
+### 3. NTT-256 Hardware Accelerator--verilog
 [View Repository](https://github.com/nikhil2005-creator/ntt256-asic-accelerator)
 
 - Implemented a 256-point Number Theoretic Transform (NTT) accelerator in Verilog for post-quantum cryptography.
 - Integrated SRAM macros and performed synthesis and physical implementation using Cadence Genus and Innovus.
 - Worked on floorplanning, placement, CTS, routing and timing closure for SCL 180 nm.
 
-### 4. FPGA Digital Stopwatch
+### 4. FPGA Digital Stopwatch--verilog
 [View Repository](https://github.com/nikhil2005-creator/fpga-digital-stopwatch)
 
 - Designed a 10-minute digital stopwatch in Verilog/SystemVerilog for an Artix-7 FPGA.
 - Implemented clock division from 100 MHz, minute/second counters, start/stop and reset controls.
 - Simulated and synthesized the design using Xilinx Vivado.
 
-### 5. Planet Hopper — 2-Player Space Game
+### 5. Planet Hopper — 2-Player Space Game--verilog
 [View Repository](https://github.com/nikhil2005-creator/Planet-Hopper-2-Player-Space-Game-in-Verilog)
 
 - Designed a two-player space-race game using Verilog HDL.
