@@ -29,21 +29,28 @@ I’m interested in **VLSI design, ASIC implementation, semiconductor technology
 - Integrated SRAM macros and performed synthesis and physical implementation using Cadence Genus and Innovus.
 - Worked on floorplanning, placement, CTS, routing and timing closure for SCL 180 nm.
 
-### 4. FPGA Digital Stopwatch--verilog
+### 4. CMOS Schmitt Trigger (Non-Inverting) — Full-Custom, SCL 180 nm
+[View Repository](https://github.com/nikhil2005-creator/cmos-schmitt-trigger-scl180)
+
+- Designed a non-inverting CMOS Schmitt trigger at transistor level in Cadence Virtuoso using SCL 180 nm technology.
+- Achieved hysteresis by using a weak feedback inverter to latch the internal node, with transistor sizing setting the switching thresholds.
+- Verified the hysteresis characteristic through transient and DC simulations, showing clean square-wave output for slow triangular inputs.
+
+### 5. FPGA Digital Stopwatch--verilog
 [View Repository](https://github.com/nikhil2005-creator/fpga-digital-stopwatch)
 
 - Designed a 10-minute digital stopwatch in Verilog/SystemVerilog for an Artix-7 FPGA.
 - Implemented clock division from 100 MHz, minute/second counters, start/stop and reset controls.
 - Simulated and synthesized the design using Xilinx Vivado.
 
-### 5. Planet Hopper — 2-Player Space Game--verilog
+### 6. Planet Hopper — 2-Player Space Game--verilog
 [View Repository](https://github.com/nikhil2005-creator/Planet-Hopper-2-Player-Space-Game-in-Verilog)
 
 - Designed a two-player space-race game using Verilog HDL.
 - Developed a testbench covering four starting-position scenarios and simulated the design using Icarus Verilog.
 - Inspected simulation waveforms using GTKWave and included the generated VCD file in the repository.
 
-### 6. Student ID Recognition using OCR and DSP — Campus Security & Attendance
+### 7. Student ID Recognition using OCR and DSP — Campus Security & Attendance
 [View Repository](https://github.com/nikhil2005-creator/Student-ID-Recognition-OCR-MATLAB)
 
 - Built a MATLAB system that reads a student's SRN from an ID card via webcam and verifies it against a student database.
